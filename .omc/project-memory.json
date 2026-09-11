@@ -1,0 +1,325 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1789039117714,
+  "projectRoot": "D:\\Contest\\数学建模大赛\\CUMCM",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "Coding": {
+      "path": "Coding",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1789039117691,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "Model": {
+      "path": "Model",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1789039117692,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "Share": {
+      "path": "Share",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1789039117692,
+      "keyFiles": [
+        "2026赛题分析报告.md",
+        "contest_problem_analysis.md",
+        "team_problem_selection.md",
+        "选题流水线.html",
+        "选题流水线.md"
+      ]
+    },
+    "Writing": {
+      "path": "Writing",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1789039117692,
+      "keyFiles": [
+        "README.md"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "Coding/B题/geometry.py",
+      "accessCount": 53,
+      "lastAccessed": 1789097588199,
+      "type": "file"
+    },
+    {
+      "path": "Coding/B题/claims_q1.py",
+      "accessCount": 33,
+      "lastAccessed": 1789097592928,
+      "type": "file"
+    },
+    {
+      "path": "Model/B题/问题1-引理与证明.md",
+      "accessCount": 27,
+      "lastAccessed": 1789094453365,
+      "type": "file"
+    },
+    {
+      "path": "C:/Users/Administrator/.claude/plans/inherited-twirling-tiger.md",
+      "accessCount": 24,
+      "lastAccessed": 1789097907881,
+      "type": "file"
+    },
+    {
+      "path": "Share/问题1-完整解题指导.md",
+      "accessCount": 23,
+      "lastAccessed": 1789094751054,
+      "type": "file"
+    },
+    {
+      "path": "Model/B题/问题1-结论分类.md",
+      "accessCount": 23,
+      "lastAccessed": 1789098131311,
+      "type": "file"
+    },
+    {
+      "path": "Coding/B题/claim_tester.py",
+      "accessCount": 19,
+      "lastAccessed": 1789096962493,
+      "type": "file"
+    },
+    {
+      "path": "Model/B题/问题1-定位区域直径算法.md",
+      "accessCount": 13,
+      "lastAccessed": 1789094450404,
+      "type": "file"
+    },
+    {
+      "path": "Model/B题/问题1-解题全流程.md",
+      "accessCount": 13,
+      "lastAccessed": 1789094453518,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 13,
+      "lastAccessed": 1789095309295,
+      "type": "directory"
+    },
+    {
+      "path": "Coding/B题/verify_q1.py",
+      "accessCount": 11,
+      "lastAccessed": 1789097984495,
+      "type": "file"
+    },
+    {
+      "path": "Model/B题/问题1-替代路线与精妙性评估.md",
+      "accessCount": 11,
+      "lastAccessed": 1789098137397,
+      "type": "file"
+    },
+    {
+      "path": "Coding/B题/repro_cover_fail.py",
+      "accessCount": 9,
+      "lastAccessed": 1789094734938,
+      "type": "file"
+    },
+    {
+      "path": "Model/B题/问题1-详解与思路评估.md",
+      "accessCount": 8,
+      "lastAccessed": 1789094455740,
+      "type": "file"
+    },
+    {
+      "path": "Model/B题/问题1-覆盖判据的适用域（Ω 修正）.md",
+      "accessCount": 8,
+      "lastAccessed": 1789098134539,
+      "type": "file"
+    },
+    {
+      "path": "Model/B题/问题1-覆盖的充要条件.md",
+      "accessCount": 7,
+      "lastAccessed": 1789098139918,
+      "type": "file"
+    },
+    {
+      "path": "Model/B题/问题1-直观方法推导.md",
+      "accessCount": 4,
+      "lastAccessed": 1789094458630,
+      "type": "file"
+    },
+    {
+      "path": "Coding/B题/config.py",
+      "accessCount": 4,
+      "lastAccessed": 1789094734792,
+      "type": "file"
+    },
+    {
+      "path": "C:/Users/Administrator/.claude/projects/D--Contest-------/memory/MEMORY.md",
+      "accessCount": 3,
+      "lastAccessed": 1789045486089,
+      "type": "file"
+    },
+    {
+      "path": "Coding/B题/verify_and_calibrate.py",
+      "accessCount": 3,
+      "lastAccessed": 1789094740468,
+      "type": "file"
+    },
+    {
+      "path": "Coding/B题/probe.py",
+      "accessCount": 3,
+      "lastAccessed": 1789094756197,
+      "type": "file"
+    },
+    {
+      "path": "AGENTS.md",
+      "accessCount": 2,
+      "lastAccessed": 1789049200141,
+      "type": "file"
+    },
+    {
+      "path": "Coding",
+      "accessCount": 2,
+      "lastAccessed": 1789094439010,
+      "type": "directory"
+    },
+    {
+      "path": "Coding/B题/robot_client.py",
+      "accessCount": 2,
+      "lastAccessed": 1789094444947,
+      "type": "file"
+    },
+    {
+      "path": "Model/B题/问题1-额外证明-清除可行性下界.md",
+      "accessCount": 2,
+      "lastAccessed": 1789094450512,
+      "type": "file"
+    },
+    {
+      "path": "Coding/B题/offline_sim.py",
+      "accessCount": 2,
+      "lastAccessed": 1789094737903,
+      "type": "file"
+    },
+    {
+      "path": "Coding/B题/README.md",
+      "accessCount": 2,
+      "lastAccessed": 1789094738062,
+      "type": "file"
+    },
+    {
+      "path": "C:/Users/Administrator/.claude/projects/D--Contest-------/memory/cumcm-2026-problem-choice.md",
+      "accessCount": 1,
+      "lastAccessed": 1789045013728,
+      "type": "file"
+    },
+    {
+      "path": "Model/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1789045449495,
+      "type": "file"
+    },
+    {
+      "path": "Writing/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1789045449701,
+      "type": "file"
+    },
+    {
+      "path": "C:/Users/Administrator/.claude/projects/D--Contest-------/memory/feedback-sync-answers-to-md.md",
+      "accessCount": 1,
+      "lastAccessed": 1789045485258,
+      "type": "file"
+    },
+    {
+      "path": "Coding/B题/repro_cover_fail.png",
+      "accessCount": 1,
+      "lastAccessed": 1789093745708,
+      "type": "file"
+    },
+    {
+      "path": "Coding/B题/usability_test.py",
+      "accessCount": 1,
+      "lastAccessed": 1789094447464,
+      "type": "file"
+    },
+    {
+      "path": "Coding/B题",
+      "accessCount": 1,
+      "lastAccessed": 1789094451017,
+      "type": "directory"
+    },
+    {
+      "path": "Model/B题/接口信息可用性分析.md",
+      "accessCount": 1,
+      "lastAccessed": 1789094455851,
+      "type": "file"
+    },
+    {
+      "path": "Share/2026赛题分析报告.md",
+      "accessCount": 1,
+      "lastAccessed": 1789094461657,
+      "type": "file"
+    },
+    {
+      "path": "Share/contest_problem_analysis.md",
+      "accessCount": 1,
+      "lastAccessed": 1789094461769,
+      "type": "file"
+    },
+    {
+      "path": "Share/team_problem_selection.md",
+      "accessCount": 1,
+      "lastAccessed": 1789094464591,
+      "type": "file"
+    },
+    {
+      "path": "Share/选题流水线.md",
+      "accessCount": 1,
+      "lastAccessed": 1789094464729,
+      "type": "file"
+    },
+    {
+      "path": "Model/B题",
+      "accessCount": 1,
+      "lastAccessed": 1789094469742,
+      "type": "directory"
+    },
+    {
+      "path": "C:/Users/Administrator/AppData/Local/Temp/claude/D--Contest-------/c649c3bf-1cb5-4f20-8f02-80330ea68198/tasks/bz1h18fa5.output",
+      "accessCount": 1,
+      "lastAccessed": 1789095825026,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

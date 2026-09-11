@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>选题流水线 · A4 打印版</title>
+<style>
+  @page { size: A4 portrait; margin: 10mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    font-size: 9.5pt; line-height: 1.45; color: #111; margin: 0;
+  }
+  h1 { font-size: 15pt; margin: 0 0 2mm; letter-spacing: 1px; }
+  .sub { font-size: 8.5pt; color: #555; margin-bottom: 3mm;
+         border-bottom: 1.5px solid #111; padding-bottom: 2mm; }
+  h2 { font-size: 11pt; margin: 3.5mm 0 1.5mm; padding-left: 2mm;
+       border-left: 4px solid #111; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 1mm; }
+  th, td { border: 0.6pt solid #999; padding: 1.1mm 1.5mm; text-align: left;
+           vertical-align: top; }
+  th { background: #eee; font-weight: 600; }
+  .c { text-align: center; }
+  ul { margin: 1mm 0 1mm; padding-left: 5mm; }
+  li { margin-bottom: 0.6mm; }
+  .rule { background: #f6f6f6; }
+  .warn { color: #a00; font-weight: 600; }
+  .box { border: 1pt solid #111; padding: 2mm; margin-top: 1mm; }
+  .two { display: flex; gap: 4mm; }
+  .two > div { flex: 1; }
+  .cb { font-family: monospace; }
+</style>
+</head>
+<body>
+
+<h1>选题流水线 · A4 打印版</h1>
+<div class="sub">
+  <b>CUMCM 2026 ｜ 开题后 2 小时硬性定题 ｜ 逐条打勾</b>
+  本页为选题阶段唯一权威流程，与 team_problem_selection.md 冲突时以本页为准。
+</div>
+
+<h2>一、三条铁律</h2>
+<table>
+  <tr class="rule"><th style="width:6%">#</th><th style="width:34%">铁律</th><th>违反的后果</th></tr>
+  <tr><td class="c">1</td><td><b>先砍后比</b> —— 30 分钟内 3 题砍到 ≤2 题，再谈优劣</td><td>三题平行比较 = 时间黑洞</td></tr>
+  <tr><td class="c">2</td><td><b>独立先于讨论</b> —— 第一轮全程禁言</td><td>谁先开口谁锚定全队</td></tr>
+  <tr><td class="c">3</td><td><b>定题不可逆</b> —— 定下后不再回头</td><td>选题反复是最致命的失血</td></tr>
+</table>
+
+<h2>二、时间表（以 18:00 发题为例）</h2>
+<table>
+  <tr class="rule"><th style="width:19%">时段</th><th style="width:20%">阶段</th><th>动作</th><th style="width:30%">产出</th></tr>
+  <tr><td>18:00–18:30</td><td>独立速览</td><td>三人各自读 A/B/C 全文，<b>不交流、不讨论</b></td><td>每人一张三题体检卡</td></tr>
+  <tr><td>18:30–19:00</td><td>交叉复述 + 硬砍</td><td>每人 3 min 讲卡，另两人只听不打断；按否决清单砍题</td><td>3 题 → ≤2 题</td></tr>
+  <tr><td>19:00–20:00</td><td>分题深挖（并行）</td><td>按角色做 60 min 专项体检</td><td>数据报告 + 模型草图 ×2 + 背景检索 ×2</td></tr>
+  <tr><td>20:00–20:30</td><td>打分定题</td><td>交叉汇报 → 独立打分求和 → 最高者胜</td><td><b>定题 + 启动清单</b></td></tr>
+  <tr><td><b>22:00</b></td><td class="warn">兜底红线</td><td>若 20:00 未定，按打分表强制定题，禁止再议</td><td>—</td></tr>
+</table>
+
+<h2>三、第 1 段 · 三题体检卡（18:00–18:30，各自独立填写）</h2>
+<table>
+  <tr class="rule"><th style="width:8%">题号</th><th style="width:16%">能复述吗</th><th style="width:24%">附件数据</th><th style="width:26%">第一直觉模型</th><th>我最怕的点</th></tr>
+  <tr><td class="c">A</td><td class="c">能 / 半 / 不能</td><td></td><td></td><td></td></tr>
+  <tr><td class="c">B</td><td class="c">能 / 半 / 不能</td><td></td><td></td><td></td></tr>
+  <tr><td class="c">C</td><td class="c">能 / 半 / 不能</td><td></td><td></td><td></td></tr>
+</table>
+<ul><li>「我最怕的点」必须写<b>具体技术恐惧</b>（如"偏微分方程不会离散化"），不许写"感觉难"。</li></ul>
+
+<h2>四、第 2 段 · 分工矩阵（19:00–20:00，角色并行，<span class="warn">不是</span>每题分一组）</h2>
+<table>
+  <tr class="rule"><th style="width:22%">角色</th><th>任务</th><th style="width:32%">60 min 产出</th></tr>
+  <tr><td><b>建模手</b><br>（集成电路）</td><td>对两题<b>各 25 min</b> 写「第一问模型草图」：变量定义 / 目标函数 / 约束条件</td><td>两份能写成公式的草图</td></tr>
+  <tr><td><b>编程手</b><br>（软件工程）</td><td>对<b>两题附件全都做数据体检</b>：能否读取 / 行列数 / 缺失值 / 量纲 / 能否出第一张图</td><td>数据可行性报告<br>（<b>最快的判别器</b>）</td></tr>
+  <tr><td><b>写作手</b><br>（数字经济）</td><td>对两题<b>各 25 min</b> 做背景与范式检索：现实原型 / 有无成熟解法 / 四问逻辑关系</td><td>两份背景 + 问题结构拆解</td></tr>
+</table>
+<ul><li class="warn">编程手不按题分工，要按「数据体检」这个动作覆盖全部剩余题。数据能不能用，比什么模型都更能决定成败。</li></ul>
+
+<h2>五、评分量表（20:00 定题，三人独立打分，不商量）</h2>
+<table>
+  <tr class="rule"><th style="width:15%">维度</th><th style="width:30%">5 分</th><th style="width:30%">1 分</th><th class="c" style="width:8%">A 题</th><th class="c" style="width:8%">B 题</th><th class="c" style="width:9%">C 题</th></tr>
+  <tr><td>数据可得性</td><td>附件齐全，读进来就能算</td><td>关键数据要自己找 / 猜</td><td></td><td></td><td></td></tr>
+  <tr><td>模型可解性</td><td>74 h 内能算出确定结果</td><td>只能给"思路"，给不出数</td><td></td><td></td><td></td></tr>
+  <tr><td>答案可验证性</td><td>有办法判断自己算得对不对</td><td>无法证伪，只能自说自话</td><td></td><td></td><td></td></tr>
+  <tr><td>写作展开度</td><td>四问层层递进，能写满 20+ 页</td><td>一问就到底，后三问硬凑</td><td></td><td></td><td></td></tr>
+  <tr><td>能力匹配度</td><td>队里有人真的懂这个领域</td><td>三人全无相关经验</td><td></td><td></td><td></td></tr>
+  <tr class="rule"><td><b>合计</b></td><td colspan="2" class="warn">平票时建模手有最终否决权（模型搭不出来是全队死局）</td><td></td><td></td><td></td></tr>
+</table>
+
+<div class="two">
+<div>
+<h2>六、硬性否决清单</h2>
+<ul>
+  <li class="cb">[ ] 三人中 ≥2 人无法复述题意</li>
+  <li class="cb">[ ] 附件缺失 / 打不开，且无公开替代来源</li>
+  <li class="cb">[ ] 核心模型三人全都没有任何经验<br>（不是"不熟"，是"没听过"）</li>
+  <li class="cb">[ ] 需要队里完全没有的实验设备或专业物理背景</li>
+</ul>
+<p class="warn">出现任一条 → 直接砍掉该题</p>
+
+<h2>七、四个高频坑</h2>
+<ul>
+  <li><b>"选看起来简单的"</b> —— C 题看着简单，但所有人都会做，区分度全靠细节，反而最容易平庸。</li>
+  <li><b>"选队友专业对口的"</b> —— 除非那门专业刚好是核心难点，否则收益远小于模型搭不出来的风险。</li>
+  <li><b>"数据量大 = 能算"</b> —— 数据量大往往意味着清洗就要花掉一整天。</li>
+  <li><b>用 AI 刷三题定选题</b> —— 第一手直觉会丢，且 2026 新规要求 AI 使用必须申报。</li>
+</ul>
+</div>
+
+<div>
+<h2>八、定题后 30 分钟启动清单（20:30 前必须开始）</h2>
+<ul>
+  <li class="cb">[ ] <b>建模手</b>：符号表 + 5 条模型假设 + 第一问完整数学表达</li>
+  <li class="cb">[ ] <b>编程手</b>：数据清洗脚本跑通，出第一张描述性统计图</li>
+  <li class="cb">[ ] <b>写作手</b>：论文骨架搭好（摘要 / 问题重述 / 假设 / 符号 / 模型 / 求解 / 检验 / 评价），占位符填满</li>
+  <li class="cb">[ ] <b>全队</b>：统一 LaTeX 模板，确认三台机器都能编译</li>
+</ul>
+<p class="warn">定题那一刻，74 小时倒计时就在烧。不要再"想一想"。</p>
+
+<h2>九、AI 使用红线（2026 新规 · 选题阶段自查）</h2>
+<ul>
+  <li><b>可用</b>：查背景、理思路、找文献、写代码草稿</li>
+  <li><b>不得</b>：替代核心建模 —— 目标函数、约束设计、模型选择必须由队员主导</li>
+  <li>所有 AI 使用必须留痕，赛后需提交 <code>AI工具使用详情.pdf</code></li>
+  <li class="warn">禁止在贴吧 / 群聊 / 知乎 / 小红书 / CSDN / GitHub 等任何公开平台讨论题目内容</li>
+  <li class="warn">禁止与队外任何人（<b>包括指导老师</b>）沟通赛题</li>
+</ul>
+</div>
+</div>
+
+</body>
+</html>
