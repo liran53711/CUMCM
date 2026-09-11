@@ -1,0 +1,77 @@
+{
+  "robot_id": "202610038113",
+  "final_virtual_time_s": 199.0,
+  "action_count": 5,
+  "actions": [
+    {
+      "idx": 2,
+      "path": "/measure",
+      "x": 300,
+      "y": 400,
+      "channel": 1,
+      "accepted": true,
+      "virtual_time_s": 105.0,
+      "virtual_delta_s": 105.0,
+      "result": "no_signal",
+      "svd_deg": null,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "idx": 3,
+      "path": "/measure",
+      "x": 300,
+      "y": 400,
+      "channel": 2,
+      "accepted": true,
+      "virtual_time_s": 111.0,
+      "virtual_delta_s": 6.0,
+      "result": "direction",
+      "svd_deg": 214.82,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "idx": 4,
+      "path": "/clear",
+      "x": 300,
+      "y": 0,
+      "channel": 3,
+      "accepted": true,
+      "virtual_time_s": 194.0,
+      "virtual_delta_s": 83.0,
+      "result": "no_target_in_range",
+      "svd_deg": null,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "idx": 5,
+      "path": "/measure",
+      "x": 300,
+      "y": 0,
+      "channel": 2,
+      "accepted": true,
+      "virtual_time_s": 199.0,
+      "virtual_delta_s": 5.0,
+      "result": "direction",
+      "svd_deg": 192.75,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "idx": 6,
+      "path": "/exit",
+      "x": 300,
+      "y": 0,
+      "channel": 2,
+      "accepted": true,
+      "virtual_time_s": 199.0,
+      "virtual_delta_s": 0.0,
+      "result": "user_exit",
+      "svd_deg": null,
+      "http_status": 0,
+      "note": ""
+    }
+  ]
+}
